@@ -1,0 +1,54 @@
+* {
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #f94892;
+}
+.error {
+  color: red;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding: 1rem;
+}
+.card {
+  margin-top: 2rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 10px;
+}
+.card .row:nth-child(odd) {
+  color: black;
+  margin-bottom: 0.5rem;
+}
+.card .row:nth-child(even) {
+  color: #979797;
+  margin-bottom: 0.5rem;
+}
+.add-dlt-btn {
+  margin-top: 1rem;
+  background-color: #f94892;
+  border-radius: 10px;
+  color: #fff;
+}
+.add-dlt-btn:hover {
+  color: #fff;
+}
+.submit-btn,
+.submit-btn:hover {
+  background-color: #ffff;
+  color: #f94892;
+  font-weight: bolder;
+}
+.time-element {
+  color: #00b4d8;
+  font-weight: bolder;
+}
+#personal-details {
+  position: sticky;
+  top: 0;
+}
+label {
+  color: #fff;
+  font-weight: bolder;
+}
